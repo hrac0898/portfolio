@@ -2,58 +2,83 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  font-family: "san-serif", sans-serif;
 }
-body {
-  color: #ededed;
+.navbar {
+  background-color: #fff;
 }
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 10%;
-  background: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-}
-.logo {
-  position: relative;
-  font-size: 25px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-}
-.navbar a {
-  display: inline-block;
-  font-size: 25px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-  margin-left: 35px;
-  transition: 0.3s;
-}
-.navbar a:hover {
-  color: #0ef;
-}
-.home {
-  position: relative;
-  width: 100%;
-  justify-content: space-between;
-  height: 100vh;
-  background: url(images.jfif) no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  padding: 70px 10% 0;
-}
-.home-content {
-  max-width: 600px;
-}
-.home-content h3 {
-  font-size: 32px;
+
+.nav-link {
+  color: black;
+  font-size: 1rem;
   font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+    url("./images/PNBS\ background.jpg");
+  background-size: cover;
+  height: 150vh;
+  width: 100%;
+}
+
+.main h3,
+h2 {
+  font-size: 4.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.main h6 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 1;
+  border-bottom: 3px solid rgb(247, 247, 247);
+}
+
+.main .bt1 {
+  height: 55px;
+  width: 138px;
+  background-color: rgb(223, 20, 109);
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.main .bt1:hover {
+  background-color: rgb(112, 12, 54);
+  transition: 0.5s;
+}
+
+.main .bt2 {
+  height: 55px;
+  width: 138px;
+  background-color: transparent;
+  color: rgb(223, 20, 109);
+  outline: none;
+  border: 1px solid rgb(223, 20, 109);
+  font-weight: bold;
+  border-radius: 5px;
+}
+.main .bt2:hover {
+  background-color: rgb(112, 12, 54);
+  transition: 0.5s;
+  color: #fff;
 }
