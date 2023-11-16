@@ -33,6 +33,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
     url("./images/PNBS\ background.jpg");
   background-size: cover;
+  background-position: 52%;
   height: 150vh;
   width: 100%;
 }
@@ -85,10 +86,6 @@ h2 {
   background-color: rgb(112, 12, 54);
   transition: 0.5s;
   color: #fff;
-}
-
-.about {
-  height: 100vh;
 }
 
 .about img {
@@ -234,10 +231,6 @@ h1 {
   color: #c2bdbd;
 }
 
-.services {
-  height: 100vh;
-}
-
 .circle {
   height: 70px;
   width: 70px;
@@ -253,4 +246,12 @@ h1 {
   background-color: #000000;
   color: #fff;
   transition: 0.5s;
+}
+
+.blog {
+  background-color: #fff;
+}
+
+.blog img {
+  background-color: #c2bdbd;
 }
