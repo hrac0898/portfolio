@@ -255,3 +255,27 @@ h1 {
 .blog img {
   background-color: #c2bdbd;
 }
+#contact-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+    url("./images/Link\ in\ bio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contact-text {
+  color: #fdfdfd;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  color: #3f3e3e;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background: #e2e2e1;
+}

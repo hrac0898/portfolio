@@ -72,7 +72,7 @@
     <section class="about">
       <div class="container py-5">
         <div class="row">
-          <div class="col-lg-5">
+          <div class="col-lg-5 offset-lg-0 col-sm-12 offset-sm-2">
             <img
               src="./images/inbound6621631055249064259 (1).jpg"
               class="img-fluid"
@@ -80,8 +80,8 @@
             />
           </div>
           <div class="col-lg-7 pt-3">
-            <h1>About Me.</h1>
-            <p>FULL STACK WEB DEVELOPER</p>
+            <h1 class="text-sm-center text-lg-left">About Me.</h1>
+            <p class="text-sm-center text-lg-left">FULL STACK WEB DEVELOPER</p>
             <p class="py-3">
               I am <span class="font-weight-bold">Harold</span> Lorem ipsum
               dolor sit amet consectetur adipisicing elit. Officiis, nulla illo.
@@ -249,6 +249,58 @@
         </div>
       </div>
     </section>
+
+    <section class="contact">
+      <div class="container-fluid">
+        <div class="row bg-dark">
+          <div
+            class="col-sm-12 col-lg-6 p-5 text-center"
+            id="contact-image"
+          ></div>
+          <div
+            class="col-lg-4 offset-lg-0 col-sm-6 offset-sm-3 py-5"
+            id="contact-text"
+          >
+            <h1>Contact</h1>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="form-group form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-2">Copyright. Harold Castro</footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
