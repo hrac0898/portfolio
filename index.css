@@ -29,7 +29,7 @@
   text-decoration: none;
 }
 
-.main {
+.hero {
   background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
     url("./images/PNBS\ background.jpg");
   background-size: cover;
@@ -41,7 +41,7 @@
 /* Readable for Title
 font-size: 4.4rem; 
 font-weight: 600;*/
-.main h3,
+.hero h3,
 h2 {
   font-size: 4.4rem;
   font-weight: 600;
@@ -49,40 +49,40 @@ h2 {
 }
 
 /* Readable  */
-.main h6 {
+.hero h6 {
   font-size: 1.41rem;
   text-transform: uppercase;
   line-height: 1;
   border-bottom: 3px solid rgb(247, 247, 247);
 }
 
-.main .bt1 {
+.hero .bt1 {
   height: 55px;
   width: 138px;
-  background-color: rgb(223, 20, 109);
-  color: #fff;
+  background-color: rgb(244, 241, 243);
+  color: #060606;
   outline: none;
   border: none;
   font-weight: bold;
   border-radius: 5px;
 }
 
-.main .bt1:hover {
-  background-color: rgb(112, 12, 54);
+.hero .bt1:hover {
+  background-color: rgb(155, 154, 154);
   transition: 0.5s;
 }
 
-.main .bt2 {
+.hero .bt2 {
   height: 55px;
   width: 138px;
   background-color: transparent;
-  color: rgb(223, 20, 109);
+  color: rgb(242, 240, 241);
   outline: none;
-  border: 1px solid rgb(223, 20, 109);
+  border: 1px solid rgb(246, 243, 244);
   font-weight: bold;
   border-radius: 5px;
 }
-.main .bt2:hover {
+.hero .bt2:hover {
   background-color: rgb(112, 12, 54);
   transition: 0.5s;
   color: #fff;
